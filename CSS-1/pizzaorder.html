@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza order</title>
+    <link rel="stylesheet" href="pizzaorder.css"/>
+</head>
+<body>
+    <fieldset>
+        <legend>Pizza order</legend>
+
+        <form action="">
+            <label for="yourName">Your Name:</label>
+            <input type="text" id="yourName" name="yourName" required minlength="3" maxlength="10" placeholder="Your Name"/>
+
+            <br />
+            <br />
+
+            <label for="email">Your Email:</label>
+            <input for="email" id="email"  name="email" required placeholder="Your Email"/>
+
+            <br>
+            <br>
+
+            Topping:
+            <input type="radio" name="topping" id="Supreme" value="Supreme" checked/>
+            <label for="Supreme">Supreme</label>
+
+            <input type="radio" name="topping" id="Vegetarian" value="Vegetarian">
+            <label for="Vegetarian">Vegetarian</label>
+
+            <input type="radio" name="topping" id="Hawaiian" value="Hawaiian" />
+            <label for="Hawaiian">Hawaiian</label>
+
+            <br>
+            <br>
+
+            <label for="sauce">Sauce:</label>
+            <select id="sauce" name="Sauce">
+                <option value="Tomato">Tomato</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Barbeque">Barbeque</option>
+            </select>
+
+            <br>
+            <br>
+
+            Extras:
+            <input type="checkbox" name="extras" value="cheese" />
+            <label for="Cheese">Cheese</label>
+
+            <input type="checkbox" name="extras" value="onions" />
+            <label for="Onions">Onions</label>
+
+            <input type="checkbox" name="extras" value="olives" checked/>
+            <label for="Olives">Olives</label>
+
+            <br>
+            <br>
+
+            Quantity:
+            <input type="number" name="Quantity" value="1" min="1" max="7" required/>
+
+            <br>
+            <br>
+
+            <label for="Date"> Date: </label>
+            <input type="date" id="Date" name="Date" value="2023-11-06" min="2023-11-06" max="2023-12-31">
+
+            <br>
+            <br>
+
+            <label for="instructions"> Delivery instructions: </label>
+            <br>
+            <textarea id="instructions" name="instructions" required placeholder="Type instructions here"></textarea>
+            
+            <br>
+            <br>
+
+            <input  class="submit-button" type="Submit" value="Send order" />
+            
+            <br>
+            <br>
+            
+            <input class="reset-button" type="reset" value="Reset" />
+        </form>
+    </fieldset>
+    
+</body>
+</html>

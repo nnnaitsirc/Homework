@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+}
+
+.container {
+    border: 1px solid red;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    background-color: #EBEBEB;
+}
+
+.yellow, .blue , .green {
+    width: 200px;
+    height: 200px;
+    border: 1px solid purple;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+
+.yellow {
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    
+}
+
+.green {
+    background-color: green;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}

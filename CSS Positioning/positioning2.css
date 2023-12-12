@@ -1,0 +1,49 @@
+.parent {
+    border: solid 5px purple;
+    border-style: dotted;
+    width: 600px;
+    height: 230px;
+    background-color: #A9BA9D;
+    position: relative;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.child.child1 , .child.child2 , .child.child3{
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+    border: solid 3px purple;
+    border-style: dotted;
+    text-transform:uppercase;
+}
+
+.child.child1 {
+    background-color: #20B2AA;
+    position: fixed;
+    top: 55px;
+    
+}
+
+.child.child2 {
+    background-color: palevioletred;
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+    z-index: 1;
+}
+
+.child.child3 {
+    background-color: #6C7C59;
+    position: absolute;
+    right:10px;
+    bottom: 30px;
+}
+
