@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+}
+
+.clip {
+    display: block;
+    border: dotted red 10px;
+    background-image: url("./images.jpeg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    margin:20px;
+    background-clip: content-box;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overlay {
+    background-image: url("./images.jpeg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    background-blend-mode: multiply;
+    box-sizing: border-box;
+    padding: 0px;
+
+    text-align: center;
+    color: white;
+}
+
+.overlay:hover {
+    background-color: red;
+}
