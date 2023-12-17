@@ -1,0 +1,55 @@
+.alphabet-list {
+  display: grid;
+  grid-template-rows: auto;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  gap: 5px;
+}
+.alphabet-list img {
+  height: 50px;
+  width: 50px;
+}
+.alphabet-list .section-A {
+  display: grid;
+  grid-template-columns: auto;
+}
+.alphabet-list .section-A:hover {
+  background-color: rgb(129, 129, 134);
+}
+.alphabet-list .section-A .alarm {
+  display: grid;
+  grid-template-columns: 50px auto;
+}
+.alphabet-list .section-A .alarm span {
+  display: grid;
+  align-items: center;
+  padding-left: 20px;
+}
+.alphabet-list .section-B {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 5px;
+}
+.alphabet-list .section-B .battle, .alphabet-list .section-B .brave {
+  display: grid;
+  grid-template-columns: 50px auto;
+}
+.alphabet-list .section-B .battle span, .alphabet-list .section-B .brave span {
+  display: grid;
+  align-items: center;
+  padding-left: 20px;
+}
+.alphabet-list .section-C {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 5px;
+}
+.alphabet-list .section-C .calculator, .alphabet-list .section-C .calendar, .alphabet-list .section-C .camera, .alphabet-list .section-C .connect {
+  display: grid;
+  grid-template-columns: 50px auto;
+}
+.alphabet-list .section-C .calculator span, .alphabet-list .section-C .calendar span, .alphabet-list .section-C .camera span, .alphabet-list .section-C .connect span {
+  display: grid;
+  align-items: center;
+  padding-left: 20px;
+}/*# sourceMappingURL=alphabetlist.css.map */

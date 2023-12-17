@@ -1,0 +1,70 @@
+.alphabet-list {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(52, 52, 52);
+    color: white;
+    gap: 5px;
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .section-A {
+        display: grid;
+        grid-template-columns: auto;
+        &:hover {
+            background-color: rgb(129, 129, 134);
+        }
+
+
+        .alarm {
+            display: grid;
+            grid-template-columns: 50px auto;
+
+
+
+            span {
+                display: grid;
+                align-items: center;
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .section-B {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5px;
+
+        .battle , .brave {
+            display: grid;
+            grid-template-columns: 50px auto;
+
+            span {
+                display: grid;
+                align-items: center;
+                padding-left: 20px;
+            }
+        }
+
+    }
+
+    .section-C {      
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5px;
+
+        .calculator , .calendar , .camera , .connect {
+            display: grid;
+            grid-template-columns: 50px auto;
+
+            span {
+                display: grid;
+                align-items: center;
+                padding-left: 20px;
+            }
+        }
+
+    }
+}
