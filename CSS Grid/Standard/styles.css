@@ -1,0 +1,124 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  width: 400px;
+  height: 700px;
+  border: 1px solid grey;
+  margin: 50px;
+  background-color: #E8E8E8;
+}
+.container .menu-bar {
+  display: grid;
+  grid-template-columns: 70px auto 30px 30px 30px;
+  width: 400px;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(175, 172, 172);
+  gap: 20px;
+}
+.container .menu-bar calculator {
+  display: grid;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container .menu-bar .material-symbols-outlined {
+  font-size: 15px;
+}
+.container .menu-bar button {
+  border: none;
+  background-color: #E8E8E8;
+}
+.container .menu-bar button:hover {
+  cursor: pointer;
+}
+.container .menu-bar2 {
+  display: grid;
+  grid-template-columns: 30px 70px 30px auto 30px;
+  grid-column-start: 1;
+  grid-template-rows: auto;
+  width: 400px;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.container .menu-bar2 button {
+  border: none;
+  background-color: #E8E8E8;
+  padding: 0px;
+}
+.container .menu-bar2 button:hover {
+  cursor: pointer;
+}
+
+.input {
+  font-size: 40px;
+  text-align: end;
+  margin-right: 30px;
+}
+
+.formulas {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-items: center;
+  align-items: center;
+  gap: 3px;
+}
+.formulas button {
+  display: grid;
+  width: auto;
+  height: auto;
+  border: none;
+  background-color: #E8E8E8;
+}
+.formulas button:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+.formulas button:nth-child(1n+3) {
+  font-weight: bold;
+}
+.formulas button:last-child {
+  font-weight: 100;
+  color: rgb(150, 148, 148);
+}
+.formulas button:nth-child(-n+2) {
+  color: rgb(150, 148, 148);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 95px 95px 95px 95px;
+  gap: 3px;
+  width: auto;
+  align-content: center;
+  justify-content: center;
+}
+.buttons .numbers {
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+.buttons button {
+  display: grid;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+}
+.buttons button:hover {
+  background-color: salmon;
+  cursor: pointer;
+}
+.buttons button:focus {
+  background-color: olive;
+}/*# sourceMappingURL=styles.css.map */

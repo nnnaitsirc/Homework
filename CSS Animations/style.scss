@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 47, 47);
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(157, 157, 0);
+    margin: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .box {
+        display: flex;
+
+        .dot1 , .dot2, .dot3 {
+            width: 20px;
+            height: 20px;
+            background-color: rgb(47, 47, 47);
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .dot1 {
+            animation: bounce 2s infinite ease-in-out;
+        }
+        .dot2 {
+            animation: bounce 2s 0.25s infinite ease-in-out;
+        }
+        .dot3 {
+            animation: bounce 2s 0.5s infinite ease-in-out;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(-35px);
+            }
+
+            50% {
+                transform: translateY(35px);
+            }
+
+            100% {
+                transform: translateY(-35px)
+            }
+            
+        }
+    }
+    
+}
